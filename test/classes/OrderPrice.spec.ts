@@ -56,7 +56,7 @@ describe('OrderPrice', () => {
             // TODO
 
             // it('should convert when assets precisions are the same [8, 8]', (done) => {
-            //     OrderPrice.fromTokens('1.47', fakeWAVES, fakeBTC).then((orderPrice) => {
+            //     OrderPrice.fromTokens('1.47', fakeACRYL, fakeBTC).then((orderPrice) => {
             //         expect(orderPrice.toMatcherCoins()).to.equal('147000000');
             //     }).then(() => done());
             // });
@@ -74,7 +74,7 @@ describe('OrderPrice', () => {
             // });
             //
             // it('should convert when assets precisions are different [8, 2]', (done) => {
-            //     OrderPrice.fromTokens('11.5', fakeWAVES, fakeUSD).then((orderPrice) => {
+            //     OrderPrice.fromTokens('11.5', fakeACRYL, fakeUSD).then((orderPrice) => {
             //         expect(orderPrice.toMatcherCoins()).to.equal('1150');
             //     }).then(() => done());
             // });
@@ -92,7 +92,7 @@ describe('OrderPrice', () => {
             // });
             //
             // it('should convert when assets precisions are different [0, 8]', (done) => {
-            //     OrderPrice.fromTokens('100.01020304', fakeZERO, fakeWAVES).then((orderPrice) => {
+            //     OrderPrice.fromTokens('100.01020304', fakeZERO, fakeACRYL).then((orderPrice) => {
             //         expect(orderPrice.toMatcherCoins()).to.equal('1000102030400000000');
             //     }).then(() => done());
             // });
@@ -104,13 +104,13 @@ describe('OrderPrice', () => {
             // TODO
 
             // it('should convert when assets precisions are the same [8, 8]', (done) => {
-            //     OrderPrice.fromTokens('11.509910102', fakeWAVES, fakeBTC).then((orderPrice) => {
+            //     OrderPrice.fromTokens('11.509910102', fakeACRYL, fakeBTC).then((orderPrice) => {
             //         expect(orderPrice.toMatcherCoins()).to.equal('1150991010');
             //     }).then(() => done());
             // });
             //
             // it('should convert when assets precisions are different [8, 2]', (done) => {
-            //     OrderPrice.fromTokens('11.5099', fakeWAVES, fakeUSD).then((orderPrice) => {
+            //     OrderPrice.fromTokens('11.5099', fakeACRYL, fakeUSD).then((orderPrice) => {
             //         expect(orderPrice.toMatcherCoins()).to.equal('1150');
             //     }).then(() => done());
             // });
@@ -140,7 +140,7 @@ describe('OrderPrice', () => {
             // TODO
 
             // it('should convert when assets precisions are the same [8, 8]', (done) => {
-            //     OrderPrice.fromMatcherCoins('147000000', fakeWAVES, fakeBTC).then((orderPrice) => {
+            //     OrderPrice.fromMatcherCoins('147000000', fakeACRYL, fakeBTC).then((orderPrice) => {
             //         expect(orderPrice.toTokens()).to.equal('1.47000000');
             //     }).then(() => done());
             // });
@@ -164,13 +164,13 @@ describe('OrderPrice', () => {
             // });
             //
             // it('should convert when assets precisions are different [8, 0]', (done) => {
-            //     OrderPrice.fromMatcherCoins('555', fakeWAVES, fakeZERO).then((orderPrice) => {
+            //     OrderPrice.fromMatcherCoins('555', fakeACRYL, fakeZERO).then((orderPrice) => {
             //         expect(orderPrice.toTokens()).to.equal('555');
             //     }).then(() => done());
             // });
             //
             // it('should convert when assets precisions are different [2, 8]', (done) => {
-            //     OrderPrice.fromMatcherCoins('233445566000000', fakeUSD, fakeWAVES).then((orderPrice) => {
+            //     OrderPrice.fromMatcherCoins('233445566000000', fakeUSD, fakeACRYL).then((orderPrice) => {
             //         expect(orderPrice.toTokens()).to.equal('2.33445566');
             //     }).then(() => done());
             // });

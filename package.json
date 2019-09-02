@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/acrylplatform/acryl-data-entities.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
   "files": [
